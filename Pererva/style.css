@@ -1,0 +1,43 @@
+/*
+div
+{
+    background-color: aquamarine;
+    height: 600px;
+    width:600px;
+    
+}
+div:hover
+{
+    background-color: darkgreen;
+    position: absolute;  Абсолютное позиционирование 
+    right: 1000px;
+    border-radius: 100%;
+    transition:  background-color 5s ease-in 3s, border-radius 5s ease-in 3s,right 5s ease-in 3s;
+    
+}*/
+
+img
+{
+   
+    float:left;
+}
+
+img:hover
+{
+transform: scaleX(-1);
+    background-repeat: no-repeat;
+transition: 2s all;
+/*
+     border: 5px solid red;
+    transform: skewX(720deg);
+    
+    transition: transform 5s ease-in 1s, border 5s ease-in 1s;
+*/
+}
+
+/*
+
+.c1:hover{
+
+}
+*/
