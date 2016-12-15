@@ -1,0 +1,28 @@
+.im{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.c1{
+    width: 100px;
+    height: 100px;background-image: url(vintage-2017-new-year-background_23-2147574532.jpg);
+    transition: 2s all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-beziersteps(2);
+}
+
+.c1:hover,
+.c1:active{
+    background-image: url(29033-newyear-new-year-gold.1200w.tn.jpg);
+    width: 400px;
+    height: 210px;
+    border: 5px solid red;
+}
+
+.c1:hover{ 
+    transform: rotate(360deg);
+}
+
+.c1:active{
+    transform: scale(1.5) rotate(-10deg) translate(70px, 80px);
+}
