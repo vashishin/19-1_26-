@@ -1,0 +1,11 @@
+div{
+    background-color: burlywood;
+    height: 100%;
+    width: 100%;
+}
+div:hover{
+    background-color: darkgoldenrod;
+    border-radius: 500px;
+   transition: background-color 5s erase-in 3s;
+ 
+}
