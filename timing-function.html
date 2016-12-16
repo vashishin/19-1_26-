@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    .box {
+          background: #1c69d3;
+          width: 40px;
+          height: 40px; 
+          transition-duration: 2s;
+        border-radius: 50%;
+        }
+
+.linear .box {
+  transition-timing-function: linear;
+}
+.ease-in .box {
+  transition-timing-function: ease-in;
+}
+.ease-out .box {
+  transition-timing-function: ease-out;
+}
+.ease-in-out .box {
+  transition-timing-function: ease-in-out;
+}
+#go:hover .box {
+  transform: translate(300px);
+}
+body {
+  font: 12px Arial;
+}
+
+h2 {
+  margin: 20px 0 5px;
+}
+
+a {
+  padding: 5px 10px;
+  background: blue;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 10px 0;
+  display: inline-block;
+}
+
+a:hover {
+  opacity: 0.6;
+}    
+    </style>
+</head>
+<body>
+    <div id="go">
+		<p>Длительность 2с</p>
+		<div class="ease">
+			<h2>Ease (default)</h2>
+			<div class="box">
+			</div>
+		</div>
+		<div class="linear">
+			<h2>Linear</h2>
+			<div class="box">
+			</div>
+		</div>
+		<div class="ease-in">
+			<h2>Ease In</h2>
+			<div class="box">
+			</div>
+		</div>
+		<div class="ease-out">
+			<h2>Ease Out</h2>
+			<div class="box">
+			</div>
+		</div>
+		<div class="ease-in-out">
+			<h2>Ease In-Out</h2>
+			<div class="box">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
