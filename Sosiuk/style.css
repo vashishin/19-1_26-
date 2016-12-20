@@ -1,18 +1,28 @@
-.im{
-    background-repeat: no-repeat;
-    background-size: contain;
+.small{
+    width:118px;
+    height: 66.4px;
+    margin-bottom: 10px;
+    background-size: cover;
 }
-
-.c1{
-    width: 1000px;
-    height: 1000px;
-    background-image: url(%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B8-%D0%BC%D0%B8%D0%BD%D1%8C%D0%BE%D0%BD%D0%BE%D0%B2.jpg);
-    transition: transform 2s;
-    transition-duration: 2s;
-    transition-timing-function: ease-in-out;
-    border: 1px solid black;
+.container{
+    float: left;
 }
-
-.c1:hover{
-    transform: skewX(5deg) rotate(360deg);
+.big{
+    height: 332px;
+    width: 590px;
+    float: left;
+    margin-left: 100px;
+    background-size: cover;
+}
+.small1:hover{
+    background-image: url(2.jpg);
+    transition: background-image 2s ease;
+}
+.small2:hover .big{
+    background-image: url(2.jpg);
+    transition: background-image 2s ease;
+}
+.small3:hover .big{
+    background-image: url(3.jpg);
+    transition: background-image 2s ease;
 }
