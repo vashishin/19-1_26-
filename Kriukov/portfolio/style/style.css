@@ -1,0 +1,342 @@
+.body {
+    margin: 0 auto;
+}
+
+.main-div {
+    height: 4200px;
+    width: 100%;
+}
+
+.parent-header {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header-layer {
+    height: 880px;
+    background-image: url(../img/header/Layer-8.png);
+}
+
+.content-header {
+    position: relative;
+    margin: 0 auto;
+}
+
+.ellipse {
+    height: 50px;
+    width: 50px;
+    top: 160px;
+    background-image: url(../img/header/Ellipse-main.png);
+}
+
+.text-main {
+    top: 240px;
+    height: 110px;
+    width: 580px;
+    background-image: url(../img/header/Main-Text.png);
+}
+
+.text-describe {
+    height: 52px;
+    width: 420px;
+    top: 300px;
+    background-image: url(../img/header/Text-under-logo.png);
+}
+
+.go-forward {
+    height: 35px;
+    width: 23px;
+    top: 355px;
+    background-image: url(../img/header/shape-go-forward.png);
+}
+
+div-2 {
+    width: 100%;
+    height: 650px;
+}
+
+.div-2-borders {
+    width: 900px;
+    height: 335px;
+    margin-top: -50px;
+    margin-left: 13%;
+}
+
+.ABOUT_US {
+    width: 285px;
+    height: 50px;
+    background-image: url(../img/div-2/ABOUT%20US.png);
+}
+
+.About_us-text{
+    margin-left: 190px;
+    margin-top: -280px;
+    width: 575px;
+    height: 225px;
+    background-image: url(../img/div-2/text-about-us.png);
+}
+
+.div-services{
+    margin-top: 170px;
+    height: 330px;
+    background-image: url(../img/div-services/Layer%204.png);
+}
+
+.SERVICES{
+    top: 20px;
+    width: 250px;
+    height: 40px;
+    background-image: url(../img/div-services/SERVICES.png);
+}
+
+.div-services-borders{
+    top: -20px;
+    width: 900px;
+    height: 170px;
+    margin-left: 13%;
+}
+
+.Services-text{
+    margin-left: 190px;
+    margin-top: -220px;
+    width: 575px;
+    height: 150px;
+    background-image: url(../img/div-services/service-text.png);
+}
+
+.div-what{
+    margin-top: 170px;
+    width: 100%;
+    height: 1350px;
+}
+
+.What-we-do{
+    width: 315px;
+    height: 30px;
+    background-image: url(../img/What-we-do/what-we-do.png);
+}
+
+.div-what-we-do-borders{
+    top: -45px;
+    width: 950px;
+    height: 1230px;
+    margin-left: 13%;
+}
+
+.div-design{
+    width: 575px;
+    height: 270px;
+    margin: 0 auto;
+    margin-top: -1120px;
+}
+
+.design-name{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 110px;
+    height: 23px;
+    background-image: url(../img/What-we-do/DESIGN.png);
+}
+
+.pen-img{
+    margin: 0 auto;
+    width: 90px;
+    height: 95px;
+    background-image: url(../img/What-we-do/pen-logo.png);
+}
+
+.design-text{
+    margin: 0 auto;
+    width: inherit;
+    height: 100px;
+    background-image: url(../img/What-we-do/design-text.png);
+}
+
+.div-development{
+    width: 575px;
+    height: 250px;
+    margin-top: 100px;
+}
+
+.console-logo{
+    width: 90px;
+    height: 90px;
+    background-image: url(../img/What-we-do/console-logo.png);
+}
+
+.develop-name{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 230px;
+    height: 23px;
+    background-image: url(../img/What-we-do/Development.png);
+}
+
+.develop-text{
+    width: inherit;
+    height: 70px;
+    background-image: url(../img/What-we-do/development-text.png);
+}
+
+.div-product{
+    width: 575px;
+    height: 250px;
+    margin-top: 100px;
+}
+
+.list-logo{
+    width: 90px;
+    height: 105px;
+    background-image: url(../img/What-we-do/list-product.png);
+}
+
+.product-name{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 23px;
+    background-image: url(../img/What-we-do/Product-Management.png);
+}
+
+.product-text{
+    width: inherit;
+    height: 70px;
+    background-image: url(../img/What-we-do/product-text.png);
+}
+
+.div-menu{
+    width: 100%;
+    height: 480px;
+}
+
+.menu-img{
+    width: 28.7%;
+    height: 32.6%;
+    float: left;
+    margin-bottom: 0.4%;
+    opacity: 1;
+    transition: 0.5s linear;
+}
+
+#img-1{
+    background-image: url(../img/menu/1.png);
+}
+
+#img-2{
+    width: 41.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    background-image: url(../img/menu/2.png);
+}
+
+#img-3{
+    background-image: url(../img/menu/3.png);
+}
+
+#img-4{
+    background-image: url(../img/menu/4.png);
+}
+
+#img-5{
+    width: 41.5%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    background-image: url(../img/menu/5.png);
+}
+
+#img-6{
+    background-image: url(../img/menu/6.png);
+}
+
+.menu-img-text{
+    position: relative;
+    height: 20px;
+    margin-top: 105px;
+    left: 5%;
+}
+
+#text-1{
+    width: 241px;
+    background-image: url(../img/menu/1-text.png);
+}
+
+#text-2{
+    width: 125px;
+    background-image: url(../img/menu/2-text.png);
+}
+
+#text-3{
+    width: 178px;
+    background-image: url(../img/menu/3-text.png);
+}
+
+#text-4{
+    width: 214px;
+    background-image: url(../img/menu/4-text.png);
+}
+
+#text-5{
+    width: 130px;
+    background-image: url(../img/menu/5-text.png);
+}
+
+#text-6{
+    width: 100px;
+    background-image: url(../img/menu/6-text.png);
+}
+
+.div-contact{
+    width: 100%;
+    height: 450px;
+}
+
+.ContactUs{
+    width: 335px;
+    height: 35px;
+    left: -1%;
+    background-image: url(../img/contact/CONTACTus.png);
+}
+
+.div-contact-borders{
+    top: -40px;
+    width: 920px;
+    height: 350px;
+    margin-left: 13%;
+}
+
+.contact-text{
+    margin-top: -250px;
+    width: 575px;
+    height: 75px;
+    background-image: url(../img/contact/text.png);
+}
+
+.button-ContactUs{
+    width: 400px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 28%;
+    background-image: url(../img/contact/b_CONTACTus.png);
+}
+
+.div-footer{
+    width: 100%;
+    height: 100px;
+}
+
+.footer-ellipse{
+    margin-top: -15px;
+    margin-left: 420px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-image: url(../img/footer/ellipse.png);
+}
+
+.footer-text{
+    margin-left: 510px;
+    width: 340px;
+    height: 20px;
+    background-image: url(../img/footer/%C2%A9%202014.%20All%20Rights%20Reserved%20by%20TonyStark.png);
+}

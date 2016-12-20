@@ -1,0 +1,141 @@
+body {
+    margin: 0 auto;
+}
+
+img{
+    width: 100%;
+    height: 720px;
+}
+
+.sliderA {
+    width: 100%;
+    height: 720px;
+    border: 1px solid #888;
+    position: relative;
+    text-align: center;
+}
+
+.sliderA > input {
+    display: none;
+}
+
+.sliderA > input + label {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    background: rgba(90, 90, 90, 0.8);
+    border: 2px solid rgba(190, 190, 190, 0.8);
+    cursor: pointer;
+    z-index: 100;
+    position: relative;
+    margin-right: 4px;
+    top: 85%;
+    transition: background 0.8s ease-out 0s;
+}
+
+.sliderA > input + label:hover {
+    background: rgba(250, 250, 250, 0.8);
+}
+
+.sliderA > input:checked + label {
+    background: rgba(220, 220, 220, 0.8);
+}
+
+.sliderA > div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 0;
+}
+
+.sliderA > div {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+}
+
+.sliderA > input:checked + label + div {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+}
+
+.name-head{
+    width: 100%;
+    height: 130px;
+    position: absolute;
+    top: 7%;
+    background-color: black;
+    opacity: 0.5;
+    text-align: center;
+}
+
+#text-header{
+  font-size: 80px;
+  font-family: "Planet N 2 cyr-lat";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-shadow: 0px 16px 42px rgba(211, 211, 211, 0.3);
+  position: inherit;
+  width: 100%;
+  height: 70px;
+  z-index: 3;
+    text-align: center;
+    top: 20px;
+}
+
+.button {
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+    border: 1px solid #11242e;
+    background: #29638a;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8fc0e0), to(#29638a));
+    background: -webkit-linear-gradient(top, #8fc0e0, #29638a);
+    background: -moz-linear-gradient(top, #8fc0e0, #29638a);
+    background: -ms-linear-gradient(top, #8fc0e0, #29638a);
+    background: -o-linear-gradient(top, #8fc0e0, #29638a);
+    background-image: -ms-linear-gradient(top, #8fc0e0 0%, #29638a 100%);
+    padding: 10.5px 21px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
+    -moz-box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0, inset rgba(255, 255, 255, 0.4) 0 1px 0;
+    text-shadow: #9aa9b3 0 1px 0;
+    color: #303436;
+    font-size: 24px;
+    font-family: helvetica, serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.button:hover {
+    border: 1px solid #0a3c59;
+    text-shadow: #122d3d 0 1px 0;
+    background: #3e779d;
+    background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+    background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+    background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+    background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+    background: -o-linear-gradient(top, #65a9d7, #3e779d);
+    background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+    color: #ffffff;
+}
+
+.button:active {
+    text-shadow: #1e4158 0 1px 0;
+    border: 1px solid #0a3c59;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+    background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+    background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+    background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+    background: -o-linear-gradient(top, #3e779d, #65a9d7);
+    background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+    color: #fff;
+}
