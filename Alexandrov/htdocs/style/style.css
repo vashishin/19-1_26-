@@ -1,0 +1,340 @@
+
+.contact{
+	color:#000;
+}
+
+.fixed_panel{
+	margin-top:15px;
+    background-color: #FFF;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 50px;
+  
+}
+.logo{
+    height: inherit;
+    padding-top: 5px;
+    padding-left: 55px;
+    font-size: 26px;
+    color:#0e1d2b;
+}
+
+.logo span{
+    color:#ffa326;
+}
+.small_p{
+    width: 89px;
+    height: inherit;
+    padding-top: 15px;
+    float: left;
+    text-align: center;
+
+}
+.fixed_panel a{
+    color:#0e1d2b;   
+    font-size: 16px;
+	text-decoration:none;
+}
+.small_p:hover,.big_p:hover{
+    background-image: url(../img/ActiveMenu.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+.big_p{
+    width: 111px;
+    height: inherit;
+    padding-top: 15px;
+    text-align: center;
+    color:#0e1d2b;
+    float: left;
+}
+.space1{
+    width: 90px;
+    height: 90px;
+    background-color: #FFF;
+    float: left;
+}
+
+.container{   
+    width: 1024px;
+  
+    margin: 0 auto;   
+    background-color: white;    
+}
+.first{
+    height: 394px;
+    background-color: white;
+}
+.first_left{
+    background-image: url(../img/Hero/Layer-1.png);
+    height: 394px;
+    width: 512px;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+.first span{   
+    font-size: 55px;
+    color: #ffa326;
+}
+.first p{
+    font-size: 14px;
+    color:#FFF;
+}
+.first_right{
+     background-image: url(../img/Hero/Layer-2.png);
+     height: 394px;
+     width: 512px;
+     padding-top: 100px;
+     padding-left: 60px;
+    padding-right: 95px;
+}
+.first_right span{
+    font-size: 55px;
+    color: #FFF;
+}
+.first_right p{
+    font-size: 14px;
+    color:#000000;
+}
+.show{
+    float: left;
+    width: 120px;
+    padding-top: 15px;
+}
+.b_show{
+    background-image: url(../img/Burgers/burger_icon.png);
+    height: 58px;
+    width: 178px;
+    margin-left:120px;
+    padding-top: 13px;
+    padding-left: 30px;
+}
+.b_show:hover{
+    background-image: url(../img/Burgers/burger_icon.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 68px;
+    width: 188px;
+    padding-top: 18px;
+    padding-left: 35px;
+}
+.second{
+    height: 464px;
+    background-color: #FFF;
+}
+.burger_left{
+    background-color: #FFF;
+    height: inherit;
+    width: 341px;
+    float: left;    
+}
+.burger_centr{
+    background-color: #FFF;
+    height: inherit;
+     width: 341px;
+    float: left;    
+}
+.burger_right{
+    background-color: #FFF;
+    height: inherit;
+    width: 341px;
+    float: left;
+}
+.second img{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.burger_right img:hover{
+    background-image: url(../img/Burgers/Layer-6_hover.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor:pointer;
+}
+.burger_centr img:hover{    
+    background-image: url(../img/Burgers/Layer-51-hover.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+     cursor:pointer;
+}
+.burger_left img:hover{    
+    background-image: url(../img/Burgers/Layer-4-hover.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+     cursor:pointer;
+}
+.second div{
+    text-align: center;
+}
+.burg_name{   
+ 
+    font-size: 23px;
+    text-align: center;
+	color:#f39c22;
+   
+}
+.kj{
+	font-size:12px;
+	color:#485058;
+}
+.kj_price{
+	background-image:url(../img/Burgers/barbecue3.png);
+	background-repeat:no-repeat;
+	background-position:center center;	
+	height: 29px;
+	
+	padding-top:5px;
+	
+}
+.price{
+	font-size:12px;
+	transform-style:preserve-3d;
+	
+}
+.burg_descr{
+	 font-size:14px;
+	 text-align:center;
+}
+ .wait_section{
+    background-color: #FFF;
+    background-image: url(../img/WaitSection/Rectangle-5.png);
+    height: 400px;
+    width: inherit;
+}
+.ws_left{
+    padding-top: 135px;
+    padding-left: 120px;
+    text-align:  center;
+    color: #FFF;
+    font-size: 40pt;
+}
+
+.ws_right{
+font-size: 16px;
+   padding-left: 90px;
+    padding-top: 145px;
+    color:#FFF;
+}
+.ws_right p{
+white-space: pre;
+}
+.photos{
+    text-align: center;
+    font-size: 60px;
+    color: black;
+	margin-top:50px;
+    
+}
+.ph-descr{
+    text-align: center;
+    font-size: 20px;
+    color: black;    
+}
+.cont_photos{
+    margin-top: 30px;
+    height: 210px;
+   
+}
+
+.l_space{
+	width:123px;
+    height: inherit;
+   background-color: #FFF;
+   float:left;
+}
+.r_space{
+    height: inherit;
+     background-color: #FFF;
+	width:140px;
+	   float:left;
+}
+.box_photo{
+   height:auto;
+   margin:0 auto;
+}
+.ph_up_line{
+   
+    height: 188px;
+    background-color: #FFF;
+}
+
+.c_up,.r_up,.l_up{
+    margin-left: 0px;
+	 transform:scale(0.7,0.7);
+	
+}
+.c_up img:hover,.r_up img:hover,.l_up img:hover{
+
+	box-shadow:inset;
+	 transform:scale(1.2,1.2);
+	 border:solid #ffa326 7px;  
+}
+.col-md-2{
+	margin-left:-1px;
+}
+.r_down{
+	margin-left:11px;
+}
+.contact_us{
+    font-size: 60px;
+    text-align: center;
+	margin-top:20px;
+    
+}
+.cart_form{
+    margin-top: 25px;
+    height: 460px;
+    background-color: #0d1e2d;
+}
+.cart_form iframe{
+    margin-top: 45px;
+   
+}
+.contact_form{
+    padding-left: 135px;
+	color:#FFF;
+	text-align:left;
+}
+.contact_form textarea{
+    height: 150px;
+    width: 250px;
+}
+.contact_form input {
+    margin-top: 10px;
+	 width: 250px;
+}
+.cont_descr{
+    margin-left: 25px;
+    margin-top: 30px; 
+}
+.cart p{
+    font-size: 18px;
+    margin-left: 25px;
+    color: #FFF;
+}
+.cart span{
+    font-size: 46px;
+    color: #ffa326;
+}
+.contact_form button{
+    background-color: #ffa326;
+    height: 30px;
+    width: 250px;
+    color: #FFF;   
+}
+.last{
+    padding-top:10px;
+    color:#ffa326;
+    background-color:#050b10;
+    height: 40px;
+    text-align: center;
+     width: 1024px;
+    margin:0 auto;
+}
+.last a{
+     color:#ffa326;   	  
+}
+
+
+
+    
+  
